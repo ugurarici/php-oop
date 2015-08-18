@@ -5,3 +5,4 @@ OOP eğitiminde gösterilenlerden bir demet.
 
 - Sınıf oluşturma ve kullanma
 - __construct(), __destruct() methodları
+- Miras alarak sınıf oluşturma (genişletme)
