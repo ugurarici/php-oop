@@ -3,4 +3,5 @@ OOP eğitiminde gösterilenlerden bir demet.
 
 ## Linux Yaz Kampı PHP Sınıfı OOP Dersleri
 
-- Sınıf oluşturma ve kullanmas
+- Sınıf oluşturma ve kullanma
+- __construct(), __destruct() methodları

@@ -15,6 +15,18 @@ class KuruTemizleme{
     // sınıf içinde çağırılacak ama hiçbir zaman değişmeyecek sabiti tanımlıyoruz
     const deterjan = "Ariel";
 
+    // sınıf kurulurken, çalıştırılmadan önce çağırılan kısmı yazıyoruz
+    function __construct(){
+        // sınıf kurulurken çalışan kısım
+        echo "Kuru Temizlemeciye Hoş Geldiniz!<br>";
+    }
+
+    // sınıfın işi bittiğinde, yıkılırken çağırılan kısmı yazıyoruz
+    function __destruct(){
+        // sınıf yıkılırken çalışan kısım
+        echo "Güle güle, yine bekleriz :)";
+    }
+
     // sınıf camasir değişkenine muhtaç olduğundan bu değişkene değer atayabilmek için methodumuzu yazıyoruz
     public function setCamasir($gelenCamasir){
         $this->camasir = $gelenCamasir;
