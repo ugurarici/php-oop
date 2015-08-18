@@ -7,3 +7,4 @@ OOP eğitiminde gösterilenlerden bir demet.
 - __construct(), __destruct() methodları
 - Miras alarak sınıf oluşturma (genişletme)
 - Sınıfları klasörleme
+- __autoload() methodu

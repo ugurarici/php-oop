@@ -1,8 +1,10 @@
 <meta charset="UTF-8">
 <?php
-// sınıfları /classes klasörüne aldığımız için ihtiyacımız olan sırayla çağırıyoruz
-require_once "classes/KuruTemizleme.php";
-require_once "classes/EveKuruTemizleme.php";
+// php'nin çağırılan sınıfı bulamadığında çalıştırdığı __autoload methodunu tanımlıyoruz
+function __autoload($className){
+    echo $className . " sınıfını bulamadı ve __autoload çalıştı<br>";
+    require_once "classes/" . $className . ".php";
+}
 
 // instance oluşturuyoruz
 $kuruTemizlemeci = new EveKuruTemizleme();
